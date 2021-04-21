@@ -1,0 +1,114 @@
+body {   
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background: #3e5b99;
+    padding: 8px 0;
+}
+.header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.container {
+    width: 65%;
+    margin: auto;
+}
+.logo-area{
+    width: 30%; 
+    float: left;
+}
+.logo-area img {
+    width: 160px;
+    margin-top: 20px;
+}
+.login-area{
+    width: 70%;
+    float: left;
+    color: #fff;
+}
+.login-area form {
+    float: right;
+}
+.login-area label,
+.login-area input{
+    display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login {
+    float: left;
+    margin-right: 15px;
+}
+.login-area label{
+ font-size: 14px;
+margin-bottom: 5px;
+}
+.login-area .login {
+    margin-right: 0;
+}
+.login-area input [type "text"],
+.login-area input [type "password"]{
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2px 5px;
+}
+.login-area .password a {
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 12px;
+    
+}
+.login-area .password a:hover {
+    text-decoration: underline;
+}
+.login-area input[type="submit"] {
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    padding: 3px 8px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+/* End header are */
+.signup-area {
+    padding: 20px 0;
+}
+.signup-area::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.left-area {
+    width: 55%;
+    float: left;
+}
+.left-area p {
+    font-size: 20px;
+    color: #0e385f;
+    font-weight: 600;
+    widows: 90%;
+}
+.left-area img {
+    width: 100%;
+}
+.right-area h2 {
+    font-size: 33px;
+    color: #333;
+    margin: 0;
+}
+.right-area h4 {
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.right-area {
+    width: 45%;
+    float: left;
+}
