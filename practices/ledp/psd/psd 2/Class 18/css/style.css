@@ -1,0 +1,140 @@
+/*basic css start*/
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-family: 'MyriadPro';
+}
+
+ul,
+ol,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.full-wapper {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+/*basic css end*/
+
+/*header css end*/
+.full-header{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 999;
+}
+.header {
+   
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.menu {
+    width: 80%;
+    float: left;
+}
+
+.menu ul {}
+
+.menu ul li {
+    float: right;
+}
+
+.menu ul li a {
+    font-family: 'Exo', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+.menu ul li a:hover {
+    border: 2px solid #028794;
+}
+
+/*header css end*/
+
+/*banner css end*/
+.full-banner {
+    background: url('../images/banner.jpg') left top no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+   padding: 300px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.58);
+    z-index: -1;
+}
+.banner-txt{
+    color: #fff;
+    font-size: 40px;
+    float: right;
+    margin-bottom: 250px;
+    font-family: 'Myriadpro';
+}
+
+/*banner css end*/
+
+/*about css end*/
+.about-txt{
+    float: left;
+    width: 50%;
+}
+.about-txt h2{
+    color: #028794;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}.about-txt h2{
+    font-size: 15px;
+}
+.about-img{
+    float: right;
+    width: 50%;
+   
+
+}
+/*about css end*/

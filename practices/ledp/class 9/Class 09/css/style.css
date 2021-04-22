@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.full{
+    width: 100%;
+    background-color: #ddd;
+}
+.container{
+    width: 1080px;
+    margin: auto;
+}
+/* basic css end*/
+
+
+/*header part*/
+.header{
+    background-color: #b19afc;
+}
+.logo{
+    width:20%;
+    float:left;
+}
+.menu{
+    width:80%;
+    float:left;
+}
+.menu ul{
+    float:right;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    margin: 5px 5px;
+    padding: 10px 15px;
+    background-color: #9e82fa;
+    border: 1px solid #5b2bfa;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: cursive;
+    transition: all .5s linear;
+}
+.menu ul li a:hover{
+    background-color: transparent;
+}
+/*header css end*/
+
+/*banner css start*/
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannet-txt{
+    text-align: center;
+    color: #fff;
+    padding: 150px 0;
+}
+.bannet-txt h1{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.bannet-txt p{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 16px 200px;
+    line-height: 26px;
+}
+.bannet-txt a{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    background-color: #5f4eb4;
+     border: 1px solid transparent;
+    color: #fff;
+    margin-top: 25px;
+    transition: all 0.6s linear;
+    
+}
+.bannet-txt a:hover{
+    background-color: transparent;
+    border: 1px solid #5f4eb4;
+    padding: 10px 25px;
+}
+
+/*banner css end*/
+
+/*about part start*/
+.about{
+    margin-top: 100px;
+    padding-top:10px;
+}
+.head-section{
+    padding: 10px 0;
+    text-align: center;
+    
+}
+.head-section h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.about-content .about-img{
+    width:40%;
+    height: 500px;
+    float: left;
+    
+}
+.about-content .about-img img{
+    width:100%;
+    height: 100%;
+    padding-top: 30px;
+    
+}
+.about-content .about-txt{
+    width:50%;
+    float: left;
+    padding-top: 30px;
+    
+ 
+}
+/*about part end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

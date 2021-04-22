@@ -1,0 +1,108 @@
+/*basic css start*/
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p, h1,h2,h3,h4,h5,h6{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.full-wapper{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/*basic css end*/
+
+/*header part start*/
+.full-header{
+    background-color: #02918C;
+}
+.logo{
+    float: left;
+    width: 20%
+}
+.logo a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 6px 0 14px 0;
+}
+.logo a span{
+    color: #cccc33;
+}
+.menu{
+    float: left;
+    width: 80%
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    margin-top: 18px;
+    transition: all 0.5s linear;
+}
+.menu ul li a:hover{
+    color: #cccc33;
+}
+/*header part end*/
+
+/*banner part end*/
+.full-banner{
+    background: url('../images/banner.jpg') left top no-repeat;
+    background-size: cover;
+}
+/*banner part end*/
+
+/*about part start*/
+.head{
+    padding: 92px 0 75px 0;
+    text-align: center;
+}
+.head h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 46px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    color: #009999;
+    margin-bottom: 12px;
+}
+/*about part end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

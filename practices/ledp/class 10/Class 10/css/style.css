@@ -1,0 +1,110 @@
+.main {
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    margin: 50px auto;
+    position: relative;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%
+}
+
+.one {
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+
+.two {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(10, 145, 15, 0.8);
+    border-radius: 50%;
+    position: absolute;
+    right: 85%;
+    bottom: 38%;
+    z-index: 1;
+}
+
+.three {
+    height: 150px;
+    width: 150px;
+    background-color: #bf29a2;
+    border-radius: 50%;
+    position: absolute;
+    left: -5%;
+    bottom: 45%;
+}
+
+.four {
+    height: 120px;
+    width: 120px;
+    background-color: #2638c1;
+    border-radius: 50%;
+    position: absolute;
+    right: 88%;
+    bottom: 32%;
+    z-index: 2;
+}
+
+.test{
+    height: 500;
+    width: 500;
+    background-color: green;
+    margin: 50px auto;
+    position: relative;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 21%;
+    top: 20%;
+}
+.circle-one{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    right: 65%;
+    bottom: 55%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

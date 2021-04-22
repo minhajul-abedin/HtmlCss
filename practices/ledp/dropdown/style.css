@@ -1,0 +1,21 @@
+.main-menu{
+    width: 980px;
+    margin: auto;
+    background-color: greenyellow;
+    padding: 20px 5px;
+}
+.menu{
+    display: inline-block;
+}
+.menu li{
+    
+}
+.menu li a{
+ text-decoration: none;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin: 0 10px;
+    background-color: #1f0c5f;
+}

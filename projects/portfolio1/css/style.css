@@ -1,0 +1,279 @@
+/*basic css start*/
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p, h1, h2, h3, h4, h5, h6{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.full{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/*basic css end*/
+
+/*header start*/
+.full{
+    background-color: #02918C;
+}
+.logo{
+    float: left;
+    width: 20%;
+    text-transform: uppercase;
+}
+.menu{
+    float: left;
+    width: 80%;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.logo a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 6px 0 14px 0;
+}
+.logo a span{
+    color: #cccc33;
+}
+.menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    margin-top: 18px;
+    transition: all 0.5s linear;
+}
+.menu ul li a:hover{
+    color: #cccc33;
+}
+/*header end*/
+
+/*banner start*/
+.full-banner{
+    background: url('../images/banner.jpg') left top no-repeat;
+    background-size: cover;
+}
+.banner-txt{
+    text-align: center;
+    color: #ffffff;
+}
+.banner-txt h2{
+    padding-top: 205px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.banner-txt h1{
+    font-size: 68px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 19px;
+}
+.banner-txt p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 46px;
+}
+.banner-txt img{
+    padding-bottom: 46px;
+}
+.banner-txt a{
+    padding: 20px 42px;
+    background-color: #cccc33;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 210px;
+    color: #0b1016;
+    border: 1px solid transparent;
+    transition: all 0.5s linear;
+}
+.banner-txt a:hover{
+    padding: 20px 42px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #cccc33;
+}
+/*banner end*/
+
+/*about me start*/
+.about-me{
+    background-color: white;
+}
+.head{
+    padding: 92px 0 75px 0;
+    text-align: center;
+}
+.head h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 46px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    color: #009999;
+    margin-bottom: 17px;
+}
+.head img{
+    margin-bottom: 28px;
+}
+.head p{
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;    
+    line-height: 30px;
+    padding: 0 130px;
+    margin-bottom: 40px;
+}
+.head p span{
+    font-weight: 800;
+    font-size: 23px;    
+}
+
+.content1, .content2, .content3, .content4{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 1px solid #d9dbdb;
+}
+.content1 img, .content2 img, .content3 img, .content4 img{
+    padding-top: 36px;
+    margin-bottom: 29px;
+}
+.content1 h3, .content2 h3, .content3 h3, .content4 h3{
+    font-size: 16px;
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.content1 p, .content2 p, .content3 p, .content4 p{
+    font-size: 11px;
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 28px;
+    padding: 0 110px;
+    padding-bottom: 54px;
+}
+.content4{
+    border: none;
+}
+/*about me end*/
+
+/*services start*/
+.full-service{
+    background: url(../images/services.jpg) left top no-repeat;
+    background-size: cover;
+}
+.services{
+    width: 50%;
+}
+.row1 h1{
+    margin-top: 99px;
+    padding-top: 65px;
+    padding-left: 93px;
+    font-size: 46px;
+    color: #02918c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.row1 img{
+    padding-top: 22px;
+    padding-left: 93px;
+    padding-bottom: 20px;
+}
+.row1 p{
+    margin-top: 22px;
+    padding-left: 93px;
+    padding-bottom: 20px;
+    padding-right: 180px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #7e8287;
+    line-height: 45px;
+    padding-bottom: 60px;
+}
+.row2{
+    text-align: left;
+}
+.row2 .col1{
+    width: 50%;
+    float: left;
+}
+.row2 .col1 img{
+    margin-bottom: 10px;
+    padding-left: 93px;
+}
+.row2 .col1 h2{
+    margin-bottom: 19px;
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-left: 93px;
+}
+.row2 .col1 p{
+    margin-bottom: 19px;
+    color: #7e8287;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 93px;
+    padding-right: 100px;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+.row2 .col1{
+    width: 50%;
+    float: left;
+}
+.row2 .col2 img{
+    margin-bottom: 10px;
+}
+.row2 .col2 h2{
+    margin-bottom: 19px;
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+.row2 .col2 p{
+    margin-bottom: 19px;
+    color: #7e8287;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-right: 200px;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+/*services end*/

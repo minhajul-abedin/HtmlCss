@@ -1,0 +1,165 @@
+ /*basic css start*/
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p, h1, h2, h3, h4, h5, h6{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.full{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/*basic css end*/
+
+/*header start*/
+.full{
+    background-color: #02918C;
+}
+.logo{
+    float: left;
+    width: 20%;
+    text-transform: uppercase;
+}
+.menu{
+    float: left;
+    width: 80%;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.logo a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 6px 0 14px 0;
+}
+.logo a span{
+    color: #cccc33;
+}
+.menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    margin-top: 18px;
+    transition: all 0.5s linear;
+}
+.menu ul li a:hover{
+    color: #cccc33;
+}
+/*header end*/
+
+/*banner start*/
+.full-banner{
+    background: url('../psd/images/banner.jpg') left top no-repeat;
+    background-size: cover;
+}
+.banner-txt{
+    text-align: center;
+    color: #ffffff;
+}
+.banner-txt h2{
+    padding-top: 205px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.banner-txt h1{
+    font-size: 68px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 19px;
+}
+.banner-txt p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 46px;
+}
+.banner-txt img{
+    padding-bottom: 46px;
+}
+.banner-txt a{
+    padding: 20px 42px;
+    background-color: #cccc33;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 210px;
+    color: #0b1016;
+    border: 1px solid transparent;
+    transition: all 0.5s linear;
+}
+.banner-txt a:hover{
+    padding: 20px 42px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #cccc33;
+}
+/*banner end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
