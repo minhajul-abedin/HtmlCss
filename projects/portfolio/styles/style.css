@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -96,4 +97,58 @@ img{
 
 .profile-info-container{
     width: 930px;
+}
+.profile-info{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.profile-title{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #555555;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+.social-links img{
+    width: 25px;
+    height: 25px;
+    margin-right: 14px;
+    
+}
+.skill-chips{
+    display: flex;
+    margin-top: 20px;
+}
+.skill-chip{
+    background: #151D38;
+    padding: 8px 6px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 14px;
+    letter-spacing: 0.04em;
+}
+.profile-bio{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #555555; 
+    margin-top: 42px;
+    width: 733px;
 }
