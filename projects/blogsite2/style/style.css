@@ -8,8 +8,28 @@ html body{
 
 }
 .container{
-    width: 70%;
+    width: 55%;
     margin: 0 auto;
+}
+p{
+    color: black;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+a{
+    color: black;
+}
+h1{
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+
+}
+h3{
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
 }
 
 /* navbar */
@@ -61,3 +81,28 @@ nav{
 .btn a{
     color: white;
 }
+/* footer */
+footer{
+    padding: 20px 50px;
+}
+hr.hr {
+    border-top: 1px solid#EAEAEA;
+    margin: 0;
+  }
+  .icons span{
+      margin-right: 20px;
+  }
+  .icons i{
+      color:#0066f9 ;
+      font-size: 50px;
+  }
+  .icons a,
+  span{
+      margin: 0;
+      padding: 0;
+  }
+  /* main content */
+  main{
+      padding: 50px;
+  }
+  
