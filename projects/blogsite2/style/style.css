@@ -8,7 +8,7 @@ html body{
 
 }
 .container{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
 }
 p{
@@ -114,6 +114,10 @@ hr.hr {
       grid-gap: 25px;
       margin-top: 25px;
   }
+  .blog-cards a{
+      text-decoration: none;
+  }
+
   .blog-card-item{
       width: 100%;
       overflow: hidden;
@@ -157,4 +161,20 @@ hr.hr {
 }
 .all-post{
     margin-top: 50px;
+}
+.blog-page{
+    display: flex;
+    width: 100%;
+    margin-top: 35px;
+}
+.blog-page div{
+    width: 50%;
+}
+.blog-page p{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+}
+.blog-page p a {
+    text-decoration: none;
 }
