@@ -215,6 +215,7 @@ hr.hr {
     color: #0066F9;
     margin: 12px 0;
 }
+                                         /* important part */
 .blog-page-prev{
     display: flex;
     width: 100%;
@@ -231,3 +232,52 @@ hr.hr {
 .blog-page-prev  a {
     text-decoration: none;
 }
+                                       /*  here */
+
+
+ /* contact form */
+
+ .form-container{
+     margin-top: 50px;
+ }
+ .form-group{
+     
+     margin-top: 25px;
+ }
+ .form-group label{
+     display: block;
+     font-size: 18px;
+     font-weight: 500;
+ }
+ .form-input{
+     margin-top: 10px;
+     width: 100%;
+     padding: 15px 15px;
+     border: 1px solid #EAEAEA;
+     font-size: 16px;
+     border-radius: 3px;
+     font-family: 'Open Sans', sans-serif;
+  }
+  .form-group textarea{
+      margin-top: 10px;
+      width: 100%;
+     padding: 15px 15px;
+     border: 1px solid #EAEAEA;
+     font-size: 16px;
+     border-radius: 3px;
+     resize: none;
+     font-family: 'Open Sans', sans-serif;
+  }
+  .form-submit{
+      padding: 10px 30px;
+      border: none;
+      border-radius: 3px;
+      background-color: #0066F9;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-size: 16px;
+      cursor: pointer;
+      
+  }
