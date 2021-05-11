@@ -281,3 +281,46 @@ hr.hr {
       cursor: pointer;
       
   }
+
+  /* about page */
+
+  .about-details h1{
+    font-size: 36px;
+    margin: 16px 0;
+
+}
+.about-details h2{
+    font-size: 28px;
+    margin: 60px 0 20px 0;
+    
+}
+.about-details h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+.about-details p{
+
+
+font-size: 16px;
+line-height: 1.5;
+margin: 15px 0;
+letter-spacing: .3px;
+}
+.about-details p>a{
+    text-decoration: none;
+    color: #0066f9; 
+}
+.code p{
+    font-size: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #F8F8F8;
+    
+}
+.hr1{
+    height: 4px;
+    width: 100%;
+    background: #EAEAEA;
+}
